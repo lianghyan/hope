@@ -14,4 +14,5 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://localhost:8001/eureka/         
+      defaultZone: http://localhost:8001/eureka/ 
+dbname: goodluck
